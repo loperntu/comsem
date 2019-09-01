@@ -8,7 +8,7 @@ navbar:
         - text: Syllabus
           href: syllabus.html
         - text: Class
-          href: class_docs.html
+          href: class_documents.html
         - text: Midterm
           href: mttest_full.html
         - text: "-----------------"
