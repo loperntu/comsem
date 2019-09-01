@@ -1,0 +1,212 @@
+---
+title: "Class Documents"
+output: 
+  html_document:
+   toc: true
+   toc_depth: 3
+   toc_float: true
+   theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
+```
+
+<br>
+
+
+Documents from class will be posted on this page.
+
+<br>
+
+# Unit 1
+### Introduction 
+
+- [slide]()
+- [notebook](https://github.com/loperntu/comsem/blob/master/notebooks/unitl/11.ipynb)
+- [math tutorial](https://github.com/loperntu/comsem/blob/master/tutorial/) and [video]()
+
+#### Readings
+
+- [TBA]()
+
+
+
+
+<br>
+
+# Unit 2
+### Compositional Semantics and Logical Representation 
+
+- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [notebook]()
+- [math tutorial]() and [video]()
+
+#### Readings
+
+- [TBA]()
+
+<br>
+
+# Unit 3
+### Stochastic Semantics
+
+- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [notebook]()
+- [math tutorial]() and [video]()
+- Datasets used: [Movies dataset](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class3/data/50movies-clean.csv)
+
+#### Readings
+
+- [TBA]()
+
+<br>
+
+
+
+# Unit 4 
+### Distributed Semantics and Vectorized Representation
+
+- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [notebook]()
+- [math tutorial]() and [video]()
+- Datasets used: [Movies dataset](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class3/data/50movies-clean.csv)
+
+
+
+#### Readings
+
+- [TBA]()
+
+
+<br>
+
+# Unit 5
+### Lexicalized Ontologies and Graphical Representation
+
+- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [notebook]()
+- [math tutorial]() and [video]()
+
+#### Readings
+
+- [TBA]()
+
+
+
+<br>
+
+# Unit 6
+### Computational Pragmatics and Contextual representation
+
+- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [notebook]()
+- [math tutorial]() and [video]()
+
+#### Readings
+
+- [TBA]()
+
+<br>
+
+# Unit 7
+### Reflections of Chinese NLP: a computational functional linguistic view
+- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [notebook]()
+- [math tutorial]() and [video]()
+
+#### Readings
+
+- [TBA]()
+
+<br>
+
+# Unit 8
+### Multimodal Semantics
+- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [notebook]()
+- [math tutorial]() and [video]()
+
+#### Readings
+
+- [TBA]()
+<br>
+
+# Unit 9
+### Meaning Transformation and Machine Translation
+
+- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [notebook]()
+- [math tutorial]() and [video]()
+
+#### Readings
+
+- [TBA]()
+
+<br>
+
+
+# Unit 10
+### Meaning Generation and NLG
+
+- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [notebook]()
+- [math tutorial]() and [video]()
+
+#### Readings
+
+- [TBA]()
+<br>
+
+
+
+# Unit 11
+### Meaning Disambiguation and WSD
+
+- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [notebook]()
+- [math tutorial]() and [video]()
+
+#### Readings
+
+- [TBA]()
+
+<br>
+
+# Unit 12
+### Semantic Inference
+
+- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [notebook]()
+- [math tutorial]() and [video]()
+
+#### Readings
+
+- [TBA]()
+
+
+******
+
+# Python References
+
+
+- [seaborn documentation](https://seaborn.pydata.org/)
+
+- [matplotlib documentation](https://matplotlib.org/)
+
+- [pandas documentation](http://pandas.pydata.org/pandas-docs/stable/)
+
+
+
+<br>
+
+******
+
+# Class Schedule
+
+```{r, echo=FALSE}
+library(tidyverse)
+jsc270_classsched <- read_csv("class_schedule.csv", col_types = cols(Week = col_character()), na = "null")
+knitr::kable(jsc270_classsched)
+```
+
