@@ -1,0 +1,48 @@
+---
+title: "Class Documents"
+output: 
+  html_document:
+   toc: true
+   toc_depth: 3
+   toc_float: true
+   theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
+```
+
+
+
+<br>
+This is a companion website for the Chinese translation of **The Generative Lexicon** by James Pustejovsky.
+
+<br>
+
+# The Nature of Lexical Knowledge
+### chapter 1-2
+
+- [slide]()
+- [notebook]()
+- [math tutorial]()
+
+#### Readings
+
+- [TBA]()
+
+
+<br>
+
+# Goals and Limitations of Lexical Semantic Theory
+### chapter 3-4
+
+- [slide]()
+- [notebook]()
+- [math tutorial]()
+
+#### Readings
+
+- [TBA]()
+
+
+<br>

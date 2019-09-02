@@ -21,7 +21,7 @@ Important information will be posted on this website including:
  
  - [Tutorial Documents](tut_docs.html)
  
- - [Class Documents](class_documents.html) 
+ - [Class Documents](class_document.html) 
  
  ******
 <br>
