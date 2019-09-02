@@ -1,5 +1,5 @@
 ---
-title: "Class Documents"
+title: "The Generative Lexicon"
 output: 
   html_document:
    toc: true
@@ -19,8 +19,9 @@ This is a companion website for the Chinese translation of **The Generative Lexi
 
 <br>
 
-# The Nature of Lexical Knowledge
-### chapter 1-2
+# Chapter 1-2
+### The Nature of Lexical Knowledge
+
 
 - [slide]()
 - [notebook]()
@@ -33,8 +34,9 @@ This is a companion website for the Chinese translation of **The Generative Lexi
 
 <br>
 
-# Goals and Limitations of Lexical Semantic Theory
-### chapter 3-4
+# Chapter 3-4
+### Limitations of Lexical Semantic Theory
+
 
 - [slide]()
 - [notebook]()
@@ -46,3 +48,109 @@ This is a companion website for the Chinese translation of **The Generative Lexi
 
 
 <br>
+
+
+<br>
+
+# Chapter 5
+### The Semantic Type System
+
+
+- [slide]()
+- [notebook]()
+
+
+#### Readings
+
+- [TBA]()
+
+<br>
+
+
+<br>
+
+# Chapter 6
+### Qualia Structure
+
+
+- [slide]()
+- [notebook]()
+
+
+#### Readings
+
+- [TBA]()
+
+<br>
+
+
+<br>
+
+# Chapter 7
+### Generative Mechanisms in Semantics
+
+
+- [slide]()
+- [notebook]()
+
+
+#### Readings
+
+- [TBA]()
+
+<br>
+
+<br>
+
+# Chapter 8
+### The Semantics of Nominals
+
+
+- [slide]()
+- [notebook]()
+
+
+#### Readings
+
+- [TBA]()
+
+<br>
+
+<br>
+
+# Chapter 9
+### The Lexical Semantics of Causation
+
+
+- [slide]()
+- [notebook]()
+
+
+#### Readings
+
+- [TBA]()
+
+<br>
+
+<br>
+
+# Chapter 10
+### Consequences of a Generative Lexicon
+
+
+- [slide]()
+- [notebook]()
+
+
+#### Readings
+
+- [TBA]()
+
+<br>
+
+
+
+
+
+
+
