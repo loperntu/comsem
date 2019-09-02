@@ -22,7 +22,7 @@ knitr::opts_chunk$set(warning = F, message = F)
 - <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Dr. [Shu-Kai Hsieh](http://iakuhs.netlify.com), [LOPE](http://lope.linguistics.ntu.edu.tw).
 - <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Dr. [Yu-Hiang, Tseng ](), [LOPE](http://lope.linguistics.ntu.edu.tw).
 - <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email instructors: shukaihsieh@g.ntu.edu.tw
-- Teaching assistants: Chris and Joy
+- Teaching assistants: Chris Schmidt and Chiung-Yu Chiang (Joy)
 
 <br>
 
