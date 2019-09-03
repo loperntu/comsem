@@ -56,7 +56,7 @@ knitr::opts_chunk$set(warning = F, message = F)
 
 ## <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Course Description 
 
-Semantics is the key to language, and one of the most crucial parts of current AI-NLP related research topics.
+Linguistic semantics is the study of meaning as conveyed via language.It is also the key to the nature of communication, and one of the most challenging parts of current AI-NLP related research. This course is designed for advanced graduate linguistic students, which focuses on the computational treatments of meaning-related topics. Topics covered will be mainly on the formal representations from different perspectives, as well as their computational implementations.
 
 
 
@@ -124,6 +124,7 @@ The course will use [Python 3](https://www.python.org/), [R](https://www.r-proje
 - Dan Jurafsky and Jim Martin. *Speech and Language Processing*.(3rd).
 - Yoav Goldberg. *Neural Network Methods for Natural Language Processing*. 
 - Emily Bender. *Linguistic Foundamentals for Natural Language Processing*.
+- Semantics. (2003) John I. Saeed. Blackwell Publishers; 2nd edition.
 
 <br>
 
