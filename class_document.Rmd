@@ -133,7 +133,7 @@ Documents from class will be posted on this page.
 <br>
 
 # Unit 9
-### Meaning Transformation and Machine Translation
+### Meaning Transformation
 
 - [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
 - [notebook]()
@@ -142,6 +142,11 @@ Documents from class will be posted on this page.
 #### Readings
 
 - [TBA]()
+
+#### Tasks
+
+- [Machine Translation]()
+
 
 <br>
 
@@ -161,7 +166,7 @@ Documents from class will be posted on this page.
 
 
 # Unit 11
-### Meaning Disambiguation and WSD
+### Meaning Disambiguation and Resolution
 
 - [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
 - [notebook]()
@@ -170,6 +175,11 @@ Documents from class will be posted on this page.
 #### Readings
 
 - [TBA]()
+
+#### Tasks
+
+- [Word Sense Disambiguation]()
+- [Event Co-reference Resolution]()
 
 <br>
 
