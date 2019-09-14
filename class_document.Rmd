@@ -38,7 +38,7 @@ Documents from class will be posted on this page.
 # Unit 2
 ### Compositional Semantics and Logical Representation 
 
-- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [slide]()
 - [notebook]()
 - [math tutorial]() and [video]()
 
@@ -51,10 +51,10 @@ Documents from class will be posted on this page.
 # Unit 3
 ### Stochastic Semantics
 
-- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [slide]()
 - [notebook]()
 - [math tutorial]() and [video]()
-- Datasets used: [Movies dataset](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class3/data/50movies-clean.csv)
+- Datasets used: 
 
 #### Readings
 
@@ -64,27 +64,12 @@ Documents from class will be posted on this page.
 
 
 
-# Unit 4 
-### Distributed Semantics and Vectorized Representation
-
-- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
-- [notebook]()
-- [math tutorial]() and [video]()
-- Datasets used: [Movies dataset](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class3/data/50movies-clean.csv)
 
 
-
-#### Readings
-
-- [TBA]()
-
-
-<br>
-
-# Unit 5
+# Unit 4
 ### Lexicalized Ontologies and Graphical Representation
 
-- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [slide]()
 - [notebook]()
 - [math tutorial]() and [video]()
 
@@ -96,10 +81,31 @@ Documents from class will be posted on this page.
 
 <br>
 
+
+# Unit 5
+### Distributed Semantics and Vectorized Representation
+
+- [slide]()
+- [notebook]()
+- [math tutorial]() and [video]()
+- Datasets used: 
+
+
+
+#### Readings
+
+- [TBA]()
+
+
+<br>
+
+
+
+
 # Unit 6
 ### Computational Pragmatics and Contextual representation
 
-- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [slide]()
 - [notebook]()
 - [math tutorial]() and [video]()
 
@@ -111,7 +117,7 @@ Documents from class will be posted on this page.
 
 # Unit 7
 ### Reflections of Chinese NLP: a computational functional linguistic view
-- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [slide]()
 - [notebook]()
 - [math tutorial]() and [video]()
 
@@ -123,7 +129,7 @@ Documents from class will be posted on this page.
 
 # Unit 8
 ### Multimodal Semantics
-- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [slide]()
 - [notebook]()
 - [math tutorial]() and [video]()
 
@@ -135,7 +141,7 @@ Documents from class will be posted on this page.
 # Unit 9
 ### Meaning Transformation
 
-- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [slide]()
 - [notebook]()
 - [math tutorial]() and [video]()
 
@@ -154,7 +160,7 @@ Documents from class will be posted on this page.
 # Unit 10
 ### Meaning Generation and NLG
 
-- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [slide]()
 - [notebook]()
 - [math tutorial]() and [video]()
 
@@ -168,7 +174,7 @@ Documents from class will be posted on this page.
 # Unit 11
 ### Meaning Disambiguation and Resolution
 
-- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [slide]()
 - [notebook]()
 - [math tutorial]() and [video]()
 
@@ -186,7 +192,7 @@ Documents from class will be posted on this page.
 # Unit 12
 ### Semantic Inference
 
-- [slide](https://github.com/JSC270/JSC270.github.io/blob/master/notebooks/class2/lecture2_slides_posted2.ipynb)
+- [slide]()
 - [notebook]()
 - [math tutorial]() and [video]()
 
