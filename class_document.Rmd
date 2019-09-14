@@ -85,7 +85,7 @@ Documents from class will be posted on this page.
 # Unit 5
 ### Distributed Semantics and Vectorized Representation
 
-- [slide]()
+- [slide.1](); [slide.2](units/5/Biemann_vector_or_graph.pdf)
 - [notebook]()
 - [math tutorial]() and [video]()
 - Datasets used: 

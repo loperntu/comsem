@@ -112,7 +112,7 @@ The course will use [Python 3](https://www.python.org/), [R](https://www.r-proje
 <br>
 
 ### References (Semantics)
-
+- Semantics. (2003) John I. Saeed. Blackwell Publishers; 2nd edition.
 
 
 
@@ -124,7 +124,7 @@ The course will use [Python 3](https://www.python.org/), [R](https://www.r-proje
 - Dan Jurafsky and Jim Martin. *Speech and Language Processing*.(3rd).
 - Yoav Goldberg. *Neural Network Methods for Natural Language Processing*. 
 - Emily Bender. *Linguistic Foundamentals for Natural Language Processing*.
-- Semantics. (2003) John I. Saeed. Blackwell Publishers; 2nd edition.
+- Muller an Guido. (2017). *Introduction to Machine Learning with Python*. O'REILLY. 
 
 <br>
 
