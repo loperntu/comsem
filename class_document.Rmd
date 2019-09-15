@@ -48,25 +48,12 @@ Documents from class will be posted on this page.
 
 <br>
 
+
+
+
+
+
 # Unit 3
-### Stochastic Semantics
-
-- [slide]()
-- [notebook]()
-- [math tutorial]() and [video]()
-- Datasets used: 
-
-#### Readings
-
-- [TBA]()
-
-<br>
-
-
-
-
-
-# Unit 4
 ### Lexicalized Ontologies and Graphical Representation
 
 - [slide]()
@@ -76,10 +63,29 @@ Documents from class will be posted on this page.
 #### Readings
 
 - [Introducing Qualia Structure](http://gl-tutorials.org/wp-content/uploads/2015/12/GL-QualiaStructure.pdf)
+- [Making AI meaningful again](https://arxiv.org/abs/1901.02918)
 
 
 
 <br>
+
+
+# Unit 4
+### Stochastic Semantics
+
+- [slide]()
+- [notebook]()
+- [math tutorial]() and [video]()
+- Datasets used: 
+
+#### Readings
+
+- [Bayesian network]()
+
+<br>
+
+
+
 
 
 # Unit 5
