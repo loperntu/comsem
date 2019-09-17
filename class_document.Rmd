@@ -209,6 +209,18 @@ Documents from class will be posted on this page.
 
 ******
 
+# Class Schedule
+
+```{r, echo=FALSE}
+library(tidyverse)
+jsc270_classsched <- read_csv("class_schedule.csv", col_types = cols(Week = col_character()), na = "null")
+knitr::kable(jsc270_classsched)
+```
+
+
+
+******
+
 # Python References
 
 
@@ -222,13 +234,4 @@ Documents from class will be posted on this page.
 
 <br>
 
-******
-
-# Class Schedule
-
-```{r, echo=FALSE}
-library(tidyverse)
-jsc270_classsched <- read_csv("class_schedule.csv", col_types = cols(Week = col_character()), na = "null")
-knitr::kable(jsc270_classsched)
-```
 

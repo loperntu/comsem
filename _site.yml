@@ -7,18 +7,12 @@ navbar:
       menu:
         - text: Syllabus
           href: syllabus.html
+        - text: "-----------------"
         - text: Topics
           href: class_document.html
         - text: "-----------------"
         - text: Assignments
-          href: assign_docs.html
-        - text: "-----------------"
-        - text: Assignment 1
-          href: hw1.html
-        - text: Assignment 2
-          href: hw2.html
-        - text: Assignment 3
-          href: hw3.html
+          href: assignment.html
     - text: Discussion
       menu:
         - text: NTU cool
