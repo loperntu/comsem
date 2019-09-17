@@ -32,8 +32,6 @@ knitr::opts_chunk$set(warning = F, message = F)
 
 - Dr. Hsieh, Friday 17:00 - 18:00.
 
-<br>
-
 ******
 
 ## <i class="glyphicon glyphicon-blackboard" aria-hidden="true"></i> Class Times and Location 
@@ -43,12 +41,8 @@ knitr::opts_chunk$set(warning = F, message = F)
 ### _Lectures_
 - Fridays, 10:00-11:50 in R307, LeXue Building. 
 
-<br>
-
 ### _Tutorials_
 - Fridays, 12:10-13:00 in R307, LeXue Building. 
-
-
 
 <br>
 
@@ -56,34 +50,20 @@ knitr::opts_chunk$set(warning = F, message = F)
 
 ## <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Course Description 
 
-Linguistic semantics is the study of meaning as conveyed via language.It is also the key to the nature of communication, and one of the most challenging parts of current AI-NLP related research. This course is designed for advanced graduate linguistic students, which focuses on the computational treatments of meaning-related topics. Topics covered will be mainly on the formal representations from different perspectives, as well as their computational implementations.
+<br> 
+Linguistic semantics is the study of meaning as conveyed via language.It is also the key to the nature of communication, and one of the most challenging parts of current AI-NLP related research. This course is designed for advanced graduate linguistic students, which focuses on the computational treatments of meaning-related topics. Topics covered will be mainly on the formal representations from different perspectives, as well as their computational implementations. By the end of this course, you should be able to apply and evaluate computational methods in semantic studies.
 
-
-
-<br>
-
-******
-
-## <span class="glyphicon glyphicon-check" aria-hidden="true"></span> Learning objectives 
-
-Each week you will watch a series of short videos, complete a short quiz, submit an assignment. By the end of this course, you should be able to:
-
-- Apply and evaluate computational methods in semantic studies.
-
-
-
-
-<br>
 
 ******
 
 ## <span class="fas fa-globe" aria-hidden="true"></span> Course Websites
+<br>
 
 - Class slides, notes, and other important information can be found on the [course website.](https://loperntu.github.io/comsem)
 
 - Questions and Answers can be posted on the [course discussion board (NTU cool)](https://cool.ntu.edu.tw/courses/461)
 
-<br>
+
 
 ******
 
@@ -98,12 +78,14 @@ Each week you will watch a series of short videos, complete a short quiz, submit
 
 ******
 
-## <i class="fas fa-code" aria-hidden="true"></i> Computing
-
-The course will use [Python 3](https://www.python.org/), [R](https://www.r-project.org/) and [R markdown](https://rmarkdown.rstudio.com/).
-
+## <i class="fas fa-code" aria-hidden="true"></i> Computing and Prerequisites
 
 <br>
+The course will use [Python 3](https://www.python.org/)/[R](https://www.r-project.org/) and [Markdown](https://markdown.tw/) for assignments; Prerequisites: Introduction to Semantics.
+
+
+It is noted that this course is meant to be a (semi-) flipped class with much of the material online. Most of the contents are video-recorded, and you should watch them at home. 
+
 
 ******
 
@@ -121,7 +103,7 @@ The course will use [Python 3](https://www.python.org/), [R](https://www.r-proje
 
 ### References (Computation)
 
-- Dan Jurafsky and Jim Martin. *Speech and Language Processing*.(3rd).
+- Dan Jurafsky and Jim Martin. *Speech and Language Processing*.[(3rd)](http://web.stanford.edu/~jurafsky/slp3/).
 - Yoav Goldberg. *Neural Network Methods for Natural Language Processing*. 
 - Emily Bender. *Linguistic Foundamentals for Natural Language Processing*.
 - Muller an Guido. (2017). *Introduction to Machine Learning with Python*. O'REILLY. 
