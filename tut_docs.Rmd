@@ -1,0 +1,82 @@
+---
+title: "Tutorial Documents"
+output: 
+  html_document:
+   toc: true
+   toc_depth: 3
+   toc_float: true
+   theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, warning = F, message = F)
+library(tidyverse)
+```
+
+<br>
+
+***********
+
+# Tutorial 0 - 2019/10/05
+
+### General computing skill/mindset
+
+- [Git basics and Github classroom]()
+
+- [Using Colab]()
+
+
+### Resources for Tutorial 0
+
+- [Pandas Cheat Sheet](Pandas_Cheat_Sheet.pdf) ([see ref](https://github.com/pandas-dev/pandas))
+
+- [The Truth About Algorithms, Cathy O'Neil](https://youtu.be/heQzqX35c9A)
+
+<!--
+A few articles on hiring algorithms: 
+
+- [Hiring Algorithms Are Not Neutral - Harvard Business Review](https://hbr.org/2016/12/hiring-algorithms-are-not-neutral)
+
+- [A.I. as Talent Scout: Unorthodox Hires, and Maybe Lower Pay - New York Times](https://www.nytimes.com/2018/12/06/business/economy/artificial-intelligence-hiring.html)
+
+- [Amazon scraps secret AI recruiting tool that showed bias against women - Reuters](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G)
+-->
+
+
+
+
+<br>
+
+
+
+# Tutorial 1 - 
+
+[Logic primer]()
+
+
+<br>
+
+# Tutorial 2 - 
+
+
+<br>
+
+# Tutorial 3 - 
+
+<br>
+
+# Tutorial 4 - 
+
+
+<br>
+
+
+# Tutorial 5 - 
+
+
+
+<br>
+
+# Tutorial 6 - 
+
+
