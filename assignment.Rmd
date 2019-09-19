@@ -1,0 +1,28 @@
+---
+title: 'Class Assignments'
+output: 
+  html_document:
+   toc: true
+   toc_float: true
+   theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
+library(tidyverse)
+```
+
+********
+
+
+# Logic
+
+
+<br>
+
+# Graph
+
+<br>
+
+# Vector
+

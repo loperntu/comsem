@@ -94,9 +94,12 @@ It is noted that this course is meant to be a (semi-) flipped class with much of
 <br>
 
 ### References (Semantics)
-- Semantics. (2003) John I. Saeed. Blackwell Publishers; 2nd edition.
-
-
+- John I. Saeed. Semantics. (2003). Blackwell Publishers; 2nd edition.
+- M. Lynne Murphy. (2010). Lexical Meaning. Cambridge University
+Press.
+- B. Levin. (1993). English Verb Classes and Alternations: A Preliminary
+Investigation. Chicago:University of Chicago Press.
+- J. Pustejovsky. (1996). The Generative Lexicon. The MIT Press.
 
 
 <br>
