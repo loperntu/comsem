@@ -39,10 +39,10 @@ knitr::opts_chunk$set(warning = F, message = F)
 <br>
 
 ### _Lectures_
-- Fridays, 10:00-11:50 in R307, LeXue Building. 
+- Fridays, 09:40-11:20 in R305, LeXue Building. 
 
 ### _Tutorials_
-- Fridays, 12:10-13:00 in R307, LeXue Building. 
+- Fridays, 11:30-12:30 in R305, LeXue Building. 
 
 <br>
 

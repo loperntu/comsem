@@ -23,13 +23,14 @@ Documents from class will be posted on this page.
 ### Introduction 
 
 - [slide]()
-- [notebook](https://github.com/loperntu/comsem/blob/master/notebooks/unitl/11.ipynb)
-- [math tutorial](https://github.com/loperntu/comsem/blob/master/tutorial/) and [video]()
+- [notebook]()
+- [tutorial]() and [video]()
 
-#### Readings
+#### Readings and References
 
-- [TBA]()
-
+- [Natural Language Processing: 50 years]()
+- [Educational youtuber's version](https://www.youtube.com/watch?v=bDxFvr1gpSU)
+- [Introducing Semantics, Nick Riemer]()
 
 
 
@@ -64,7 +65,7 @@ Documents from class will be posted on this page.
 
 - [Introducing Qualia Structure](http://gl-tutorials.org/wp-content/uploads/2015/12/GL-QualiaStructure.pdf)
 - [Making AI meaningful again](https://arxiv.org/abs/1901.02918)
-
+- [OntoClean Methodology.tutorial](http://mowl-power.cs.man.ac.uk/2010/comp/owl-60462/OntoClean.pdf)
 
 
 <br>
