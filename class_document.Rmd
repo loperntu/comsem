@@ -22,8 +22,7 @@ Documents from class will be posted on this page.
 # Unit 1
 ### Introduction 
 
-- [slide]()
-- [notebook]()
+- [slide.0](./units/1/introduction.week2.pdf); [slide.1]()
 - [tutorial]() and [video]()
 
 #### Readings and References
@@ -206,6 +205,20 @@ Documents from class will be posted on this page.
 #### Readings
 
 - [TBA]()
+
+
+# Unit 13
+### Bias and Meaning
+
+- [slide]()
+- [notebook]()
+
+
+#### Readings
+
+- [TBA]()
+
+
 
 
 ******

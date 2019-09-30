@@ -80,3 +80,26 @@ A few articles on hiring algorithms:
 # Tutorial 6 - 
 
 
+
+<!---
+
+Essential math for (computational) linguists
+
+
+
+
+
+
+
+> Linear algebra
+> 
+
+
+
+
+
+
+
+
+
+
