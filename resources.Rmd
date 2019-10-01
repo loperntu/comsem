@@ -22,8 +22,9 @@ knitr::opts_chunk$set(echo = F, warning = F, message = F)
 
 - [Special Interest Group on Computational Semantics (SIGSEM)](https://aclweb.org/anthology/sigs/sigsem/)
 
+- [IWCS 2019, Gothenburg](https://sites.google.com/view/iwcs2019/home?authuser=0)
 
-
+- [SemEval: International Workshop on Semantic Evaluation, 2020](http://alt.qcri.org/semeval2020/index.php?id=tasks)
 <br>
 
 

@@ -22,8 +22,8 @@ Documents from class will be posted on this page.
 # Unit 1
 ### Introduction 
 
-- [slide.0](./units/1/introduction.week2.pdf); [slide.1]()
-- [tutorial]() and [video]()
+- [slide.0](./units/1/introduction.week2.pdf); [slide.1](units/1/introduction.pdf)
+
 
 #### Readings and References
 
@@ -40,11 +40,11 @@ Documents from class will be posted on this page.
 
 - [slide]()
 - [notebook]()
-- [math tutorial]() and [video]()
+- [(math tutorial.1) Logic: A Primer]() and [video]()
 
 #### Readings
 
-- [TBA]()
+- [Logic in Linguistics, Allwood. 1977]()
 
 <br>
 
