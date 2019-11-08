@@ -84,7 +84,7 @@ Linguistic semantics is the study of meaning as conveyed via language.It is also
 The course will use [Python 3](https://www.python.org/)/[R](https://www.r-project.org/) and [Markdown](https://markdown.tw/) for assignments; Prerequisites: Introduction to Semantics.
 
 
-It is noted that this course is meant to be a (semi-) flipped class with much of the material online. Most of the contents are video-recorded, and you should watch them at home. 
+It is noted that this course is meant to be a (semi-) flipped class with much of the material online. Most of the contents are video-recorded, and you should watch them at home. Please also read the provided materials ahead of the lecture and come prepared with your questions, comments and critiques. 
 
 
 ******
