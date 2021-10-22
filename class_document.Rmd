@@ -55,8 +55,8 @@ Documents from class will be posted on this page.
 
 
 #### Lab
-   - [notebook]()
-   - [assignment.1](assignment/Assignment_1_template.html)
+   - [keras notebook]()
+   - [assignment.1]()
    - [assignment.2]()
    - [assignment.3](https://bit.ly/3lB9YsT)
 
