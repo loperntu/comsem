@@ -1,7 +1,7 @@
 ---
 title: "Computational Semantics"
 subtitle: "Syllabus"
-date: 2019-20
+date:
 
 output: 
   html_document:
@@ -21,8 +21,8 @@ knitr::opts_chunk$set(warning = F, message = F)
 ## <i class="fas fa-user-friends" aria-hidden="true"></i> Teaching Team
 - <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Dr. [Shu-Kai Hsieh](http://iakuhs.netlify.com), [LOPE](http://lope.linguistics.ntu.edu.tw).
 - <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Dr. [Yu-Hiang, Tseng ](), [LOPE](http://lope.linguistics.ntu.edu.tw).
-- <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email instructors: shukaihsieh@g.ntu.edu.tw
-- Teaching assistants: Chris Schmidt and Chiung-Yu Chiang (Joy)
+- <span class="glyphicon glyphicon-user" aria-hidden="true"></span> TA. [Derek Liao](), 
+- <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email instructors: shukaihsieh@ntu.edu.tw
 
 <br>
 
@@ -39,10 +39,10 @@ knitr::opts_chunk$set(warning = F, message = F)
 <br>
 
 ### _Lectures_
-- Fridays, 09:40-11:20 in R305, LeXue Building. 
+- Fridays, 14:00-16:00 in R305, LeXue Building. 
 
-### _Tutorials_
-- Fridays, 11:30-12:30 in R305, LeXue Building. 
+### _Tutorials_ and _Labs_
+- Fridays, 16:10-17:00 in R305, LeXue Building. 
 
 <br>
 
@@ -81,7 +81,7 @@ Linguistic semantics is the study of meaning as conveyed via language.It is also
 ## <i class="fas fa-code" aria-hidden="true"></i> Computing and Prerequisites
 
 <br>
-The course will use [Python 3](https://www.python.org/)/[R](https://www.r-project.org/) and [Markdown](https://markdown.tw/) for assignments; Prerequisites: Introduction to Semantics.
+The course will use [Python 3](https://www.python.org/) and [Markdown](https://markdown.tw/) for assignments; Prerequisites: Introduction to Semantics; Essential Python.
 
 
 It is noted that this course is meant to be a (semi-) flipped class with much of the material online. Most of the contents are video-recorded, and you should watch them at home. Please also read the provided materials ahead of the lecture and come prepared with your questions, comments and critiques. 
@@ -107,9 +107,7 @@ Investigation. Chicago:University of Chicago Press.
 ### References (Computation)
 
 - Dan Jurafsky and Jim Martin. *Speech and Language Processing*.[(3rd)](http://web.stanford.edu/~jurafsky/slp3/).
-- Yoav Goldberg. *Neural Network Methods for Natural Language Processing*. 
-- Emily Bender. *Linguistic Foundamentals for Natural Language Processing*.
-- Muller an Guido. (2017). *Introduction to Machine Learning with Python*. O'REILLY. 
+- Bender and Lascarides (2019). *Linguistic Foundamentals for Natural Language Processing II: 100 Essentials from Semantics and Pragmatics*. Morgan & Claypool Publishers.
 
 <br>
 
@@ -160,6 +158,4 @@ You are responsible for knowing the content of the [National Taiwan Universityâ€
 
 <br>
 
-R Markdown source for this website <a href="https://github.com/loperntu/comsem/">
-<i class="fa fa-github fa-2x" aria-hidden="true"></i>
 </a>

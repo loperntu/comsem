@@ -1,6 +1,6 @@
 ---
 title: "Computational Semantics 計算語意學"
-subtitle: "2019-20, Course Website"
+subtitle: "Course Website"
 
 output: 
   html_document:
@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Welcome to the course website for Computational Semantics,  [Graduate Institute of Linguistics](http://linguistics.ntu.edu.tw), [National Taiwan University ](https://www.ntu.edu.tw)
 
-Important information will be posted on this website including:
+General information will be posted on this website including:
 
  - [Course Syllabus](syllabus.html)
  
@@ -30,7 +30,6 @@ Important information will be posted on this website including:
 
 This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
-<a href="https://github.com/loperntu/comsem">R Markdown source for this website</a>
 
 <br>
 
