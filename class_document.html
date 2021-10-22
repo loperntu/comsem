@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -14,25 +13,40 @@
 
 <title>Class Documents</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -45,32 +59,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 
@@ -80,10 +69,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -100,40 +85,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -161,7 +119,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -173,7 +131,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -184,10 +142,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -199,7 +170,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -235,6 +205,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -263,6 +234,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -318,7 +295,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -370,7 +347,7 @@ div.tocify {
   <ul class="dropdown-menu" role="menu">
     <li>
       <a href="https://cool.ntu.edu.tw/courses/461">
-        <span class="fas fa fas fa-info"></span>
+        <span class="fas fa-info"></span>
          
         NTU cool
       </a>
@@ -409,7 +386,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -423,35 +400,48 @@ div.tocify {
 <p><br></p>
 <div id="unit-1" class="section level1">
 <h1>Unit 1</h1>
-<div id="introduction" class="section level3">
-<h3>Introduction</h3>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
 <ul>
-<li><a href="./units/1/introduction.week2.pdf">slide.0</a>; <a href="units/1/introduction.pdf">slide.1</a></li>
+<li><a href="units/1/introduction.pdf">slide</a></li>
 </ul>
 <div id="readings-and-references" class="section level4">
 <h4>Readings and References</h4>
 <ul>
 <li><a href="">Natural Language Processing: 50 years</a></li>
-<li><a href="https://www.youtube.com/watch?v=bDxFvr1gpSU">Educational youtuber’s version</a></li>
 <li><a href="">Introducing Semantics, Nick Riemer</a></li>
 </ul>
+</div>
+<div id="python-warmup-exercise" class="section level4">
+<h4>Python warmup exercise</h4>
 <p><br></p>
 </div>
 </div>
 </div>
 <div id="unit-2" class="section level1">
 <h1>Unit 2</h1>
-<div id="compositional-semantics-and-logical-representation" class="section level3">
-<h3>Compositional Semantics and Logical Representation</h3>
+<div id="vector-semantics" class="section level2">
+<h2>Vector Semantics</h2>
+<ul>
+<li><p>Distributional and distributed semantics</p>
+<ul>
+<li><a href="">slide</a>,</li>
+<li><a href="">notebook</a></li>
+<li><a href="">math tutorial</a> and <a href="">video</a></li>
+</ul></li>
+<li><p>Neural language models</p>
 <ul>
 <li><a href="">slide</a></li>
-<li><a href="">notebook</a></li>
-<li><a href="">(math tutorial.1) Logic: A Primer</a> and <a href="">video</a></li>
+</ul></li>
 </ul>
 <div id="readings" class="section level4">
 <h4>Readings</h4>
 <ul>
-<li><a href="">Logic in Linguistics, Allwood. 1977</a></li>
+<li><a href="">JM-SLP-v3, Chapter 6,7,9</a></li>
+</ul>
+<p>Bias and Meaning</p>
+<ul>
+<li><a href="">slide</a></li>
 </ul>
 <p><br></p>
 </div>
@@ -459,12 +449,24 @@ div.tocify {
 </div>
 <div id="unit-3" class="section level1">
 <h1>Unit 3</h1>
-<div id="lexicalized-ontologies-and-graphical-representation" class="section level3">
-<h3>Lexicalized Ontologies and Graphical Representation</h3>
+<div id="graph-semantics" class="section level2">
+<h2>Graph Semantics</h2>
+<ul>
+<li>Lexicon and Graphical Representation
 <ul>
 <li><a href="">slide</a></li>
 <li><a href="">notebook</a></li>
 <li><a href="">math tutorial</a> and <a href="">video</a></li>
+</ul></li>
+<li>Ontologies
+<ul>
+<li><a href="">slide</a></li>
+<li><a href="">notebook</a></li>
+</ul></li>
+<li>Building hybrid knowledge representation from text corpora and knowledge graph
+<ul>
+<li><a href="">slide</a></li>
+</ul></li>
 </ul>
 <div id="readings-1" class="section level4">
 <h4>Readings</h4>
@@ -479,10 +481,10 @@ div.tocify {
 </div>
 <div id="unit-4" class="section level1">
 <h1>Unit 4</h1>
-<div id="stochastic-semantics" class="section level3">
-<h3>Stochastic Semantics</h3>
+<div id="meaning-and-units" class="section level2">
+<h2>Meaning and Units</h2>
 <ul>
-<li><a href="">slide</a></li>
+<li><a href="">slide.1</a>; <a href="units/5/Biemann_vector_or_graph.pdf">slide.2</a></li>
 <li><a href="">notebook</a></li>
 <li><a href="">math tutorial</a> and <a href="">video</a></li>
 <li>Datasets used:</li>
@@ -490,7 +492,7 @@ div.tocify {
 <div id="readings-2" class="section level4">
 <h4>Readings</h4>
 <ul>
-<li><a href="">Bayesian network</a></li>
+<li><a href="">TBA</a></li>
 </ul>
 <p><br></p>
 </div>
@@ -498,133 +500,20 @@ div.tocify {
 </div>
 <div id="unit-5" class="section level1">
 <h1>Unit 5</h1>
-<div id="distributed-semantics-and-vectorized-representation" class="section level3">
-<h3>Distributed Semantics and Vectorized Representation</h3>
+<div id="meaning-disambiguation-and-resolution" class="section level2">
+<h2>Meaning Disambiguation and Resolution</h2>
 <ul>
-<li><a href="">slide.1</a>; <a href="units/5/Biemann_vector_or_graph.pdf">slide.2</a></li>
+<li><a href="">slide</a></li>
 <li><a href="">notebook</a></li>
 <li><a href="">math tutorial</a> and <a href="">video</a></li>
-<li>Datasets used:</li>
 </ul>
 <div id="readings-3" class="section level4">
 <h4>Readings</h4>
 <ul>
 <li><a href="">TBA</a></li>
 </ul>
-<p><br></p>
-</div>
-</div>
-</div>
-<div id="unit-6" class="section level1">
-<h1>Unit 6</h1>
-<div id="computational-pragmatics-and-contextual-representation" class="section level3">
-<h3>Computational Pragmatics and Contextual representation</h3>
-<ul>
-<li><a href="">slide</a></li>
-<li><a href="">notebook</a></li>
-<li><a href="">math tutorial</a> and <a href="">video</a></li>
-</ul>
-<div id="readings-4" class="section level4">
-<h4>Readings</h4>
-<ul>
-<li><a href="">TBA</a></li>
-</ul>
-<p><br></p>
-</div>
-</div>
-</div>
-<div id="unit-7" class="section level1">
-<h1>Unit 7</h1>
-<div id="reflections-of-chinese-nlp-a-computational-functional-linguistic-view" class="section level3">
-<h3>Reflections of Chinese NLP: a computational functional linguistic view</h3>
-<ul>
-<li><a href="">slide</a></li>
-<li><a href="">notebook</a></li>
-<li><a href="">math tutorial</a> and <a href="">video</a></li>
-</ul>
-<div id="readings-5" class="section level4">
-<h4>Readings</h4>
-<ul>
-<li><a href="">TBA</a></li>
-</ul>
-<p><br></p>
-</div>
-</div>
-</div>
-<div id="unit-8" class="section level1">
-<h1>Unit 8</h1>
-<div id="multimodal-semantics" class="section level3">
-<h3>Multimodal Semantics</h3>
-<ul>
-<li><a href="">slide</a></li>
-<li><a href="">notebook</a></li>
-<li><a href="">math tutorial</a> and <a href="">video</a></li>
-</ul>
-<div id="readings-6" class="section level4">
-<h4>Readings</h4>
-<ul>
-<li><a href="">TBA</a> <br></li>
-</ul>
-</div>
-</div>
-</div>
-<div id="unit-9" class="section level1">
-<h1>Unit 9</h1>
-<div id="meaning-transformation" class="section level3">
-<h3>Meaning Transformation</h3>
-<ul>
-<li><a href="">slide</a></li>
-<li><a href="">notebook</a></li>
-<li><a href="">math tutorial</a> and <a href="">video</a></li>
-</ul>
-<div id="readings-7" class="section level4">
-<h4>Readings</h4>
-<ul>
-<li><a href="">TBA</a></li>
-</ul>
 </div>
 <div id="tasks" class="section level4">
-<h4>Tasks</h4>
-<ul>
-<li><a href="">Machine Translation</a></li>
-</ul>
-<p><br></p>
-</div>
-</div>
-</div>
-<div id="unit-10" class="section level1">
-<h1>Unit 10</h1>
-<div id="meaning-generation-and-nlg" class="section level3">
-<h3>Meaning Generation and NLG</h3>
-<ul>
-<li><a href="">slide</a></li>
-<li><a href="">notebook</a></li>
-<li><a href="">math tutorial</a> and <a href="">video</a></li>
-</ul>
-<div id="readings-8" class="section level4">
-<h4>Readings</h4>
-<ul>
-<li><a href="">TBA</a> <br></li>
-</ul>
-</div>
-</div>
-</div>
-<div id="unit-11" class="section level1">
-<h1>Unit 11</h1>
-<div id="meaning-disambiguation-and-resolution" class="section level3">
-<h3>Meaning Disambiguation and Resolution</h3>
-<ul>
-<li><a href="">slide</a></li>
-<li><a href="">notebook</a></li>
-<li><a href="">math tutorial</a> and <a href="">video</a></li>
-</ul>
-<div id="readings-9" class="section level4">
-<h4>Readings</h4>
-<ul>
-<li><a href="">TBA</a></li>
-</ul>
-</div>
-<div id="tasks-1" class="section level4">
 <h4>Tasks</h4>
 <ul>
 <li><a href="">Word Sense Disambiguation</a></li>
@@ -634,32 +523,61 @@ div.tocify {
 </div>
 </div>
 </div>
-<div id="unit-12" class="section level1">
-<h1>Unit 12</h1>
-<div id="semantic-inference" class="section level3">
-<h3>Semantic Inference</h3>
+<div id="unit-6" class="section level1">
+<h1>Unit 6</h1>
+<div id="meaning-transfer" class="section level2">
+<h2>Meaning transfer</h2>
+<p>Computational Pragmatics and Contextual representation</p>
+<ul>
+<li><a href="">slide</a></li>
+<li><a href="">notebook</a></li>
+</ul>
+<div id="readings-4" class="section level4">
+<h4>Readings</h4>
+<ul>
+<li><a href="">TBA</a></li>
+</ul>
+<p><br></p>
+<p>Neural Machine Translation</p>
+<ul>
+<li><a href="">slide</a></li>
+<li><a href="">notebook</a></li>
+</ul>
+<p>Diachonic semantic modeling</p>
+<ul>
+<li><a href="">slide</a></li>
+<li><a href="">notebook</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="unit-7" class="section level1">
+<h1>Unit 7</h1>
+<div id="multimodal-semantics" class="section level2">
+<h2>Multimodal Semantics</h2>
 <ul>
 <li><a href="">slide</a></li>
 <li><a href="">notebook</a></li>
 <li><a href="">math tutorial</a> and <a href="">video</a></li>
 </ul>
-<div id="readings-10" class="section level4">
+<div id="readings-5" class="section level4">
 <h4>Readings</h4>
 <ul>
-<li><a href="">TBA</a></li>
+<li><a href="">TBA</a> <br></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="unit-13" class="section level1">
-<h1>Unit 13</h1>
-<div id="bias-and-meaning" class="section level3">
-<h3>Bias and Meaning</h3>
+<div id="unit-8" class="section level1">
+<h1>Unit 8</h1>
+<div id="semantic-inference" class="section level2">
+<h2>Semantic Inference</h2>
 <ul>
 <li><a href="">slide</a></li>
 <li><a href="">notebook</a></li>
+<li><a href="">math tutorial</a> and <a href="">video</a></li>
 </ul>
-<div id="readings-11" class="section level4">
+<div id="readings-6" class="section level4">
 <h4>Readings</h4>
 <ul>
 <li><a href="">TBA</a></li>
@@ -682,13 +600,13 @@ div.tocify {
 <tbody>
 <tr class="odd">
 <td align="left">1</td>
-<td align="left">9/13</td>
-<td align="left">Holiday (class cancelled)</td>
-<td align="left"></td>
+<td align="left">9/24</td>
+<td align="left">Introduction to Semantics</td>
+<td align="left">Representation and Computation,</td>
 </tr>
 <tr class="even">
 <td align="left">2</td>
-<td align="left">9/20</td>
+<td align="left">10/01</td>
 <td align="left">Introducing semantics and computation</td>
 <td align="left">GitHub, IPython/Colab</td>
 </tr>
@@ -813,7 +731,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -831,7 +749,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -840,6 +758,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
@@ -852,7 +773,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

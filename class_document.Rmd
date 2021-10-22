@@ -20,32 +20,41 @@ Documents from class will be posted on this page.
 <br>
 
 # Unit 1
-### Introduction 
+## Introduction 
 
-- [slide.0](./units/1/introduction.week2.pdf); [slide.1](units/1/introduction.pdf)
+- [slide](units/1/introduction.pdf)
 
 
 #### Readings and References
 
 - [Natural Language Processing: 50 years]()
-- [Educational youtuber's version](https://www.youtube.com/watch?v=bDxFvr1gpSU)
 - [Introducing Semantics, Nick Riemer]()
 
-
+#### Python warmup exercise
 
 <br>
 
 # Unit 2
-### Compositional Semantics and Logical Representation 
+## Vector Semantics
 
-- [slide]()
-- [notebook]()
-- [(math tutorial.1) Logic: A Primer]() and [video]()
+- Distributional and distributed semantics
+
+   - [slide](),
+   - [notebook]()
+   - [math tutorial]() and [video]()
+
+- Neural language models
+
+   - [slide]()
 
 #### Readings
 
-- [Logic in Linguistics, Allwood. 1977]()
+- [JM-SLP-v3, Chapter 6,7,9]()
 
+Bias and Meaning
+
+   - [slide]()
+   
 <br>
 
 
@@ -54,11 +63,19 @@ Documents from class will be posted on this page.
 
 
 # Unit 3
-### Lexicalized Ontologies and Graphical Representation
+## Graph Semantics
 
-- [slide]()
-- [notebook]()
-- [math tutorial]() and [video]()
+- Lexicon and Graphical Representation
+   - [slide]()
+   - [notebook]()
+   - [math tutorial]() and [video]()
+
+- Ontologies
+   - [slide]()
+   - [notebook]()
+   
+- Building hybrid knowledge representation from text corpora and knowledge graph
+   - [slide]()
 
 #### Readings
 
@@ -71,25 +88,8 @@ Documents from class will be posted on this page.
 
 
 # Unit 4
-### Stochastic Semantics
+## Meaning and Units
 
-- [slide]()
-- [notebook]()
-- [math tutorial]() and [video]()
-- Datasets used: 
-
-#### Readings
-
-- [Bayesian network]()
-
-<br>
-
-
-
-
-
-# Unit 5
-### Distributed Semantics and Vectorized Representation
 
 - [slide.1](); [slide.2](units/5/Biemann_vector_or_graph.pdf)
 - [notebook]()
@@ -107,78 +107,8 @@ Documents from class will be posted on this page.
 
 
 
-
-# Unit 6
-### Computational Pragmatics and Contextual representation
-
-- [slide]()
-- [notebook]()
-- [math tutorial]() and [video]()
-
-#### Readings
-
-- [TBA]()
-
-<br>
-
-# Unit 7
-### Reflections of Chinese NLP: a computational functional linguistic view
-- [slide]()
-- [notebook]()
-- [math tutorial]() and [video]()
-
-#### Readings
-
-- [TBA]()
-
-<br>
-
-# Unit 8
-### Multimodal Semantics
-- [slide]()
-- [notebook]()
-- [math tutorial]() and [video]()
-
-#### Readings
-
-- [TBA]()
-<br>
-
-# Unit 9
-### Meaning Transformation
-
-- [slide]()
-- [notebook]()
-- [math tutorial]() and [video]()
-
-#### Readings
-
-- [TBA]()
-
-#### Tasks
-
-- [Machine Translation]()
-
-
-<br>
-
-
-# Unit 10
-### Meaning Generation and NLG
-
-- [slide]()
-- [notebook]()
-- [math tutorial]() and [video]()
-
-#### Readings
-
-- [TBA]()
-<br>
-
-
-
-# Unit 11
-### Meaning Disambiguation and Resolution
+# Unit 5
+## Meaning Disambiguation and Resolution
 
 - [slide]()
 - [notebook]()
@@ -195,8 +125,49 @@ Documents from class will be posted on this page.
 
 <br>
 
-# Unit 12
-### Semantic Inference
+
+
+# Unit 6 
+## Meaning transfer
+
+Computational Pragmatics and Contextual representation
+
+- [slide]()
+- [notebook]()
+
+#### Readings
+
+- [TBA]()
+
+<br>
+
+Neural Machine Translation
+
+- [slide]()
+- [notebook]()
+
+
+Diachonic semantic modeling
+
+- [slide]()
+- [notebook]()
+
+
+# Unit 7
+## Multimodal Semantics
+
+- [slide]()
+- [notebook]()
+- [math tutorial]() and [video]()
+
+#### Readings
+
+- [TBA]()
+<br>
+
+
+# Unit 8
+## Semantic Inference
 
 - [slide]()
 - [notebook]()
@@ -206,17 +177,6 @@ Documents from class will be posted on this page.
 
 - [TBA]()
 
-
-# Unit 13
-### Bias and Meaning
-
-- [slide]()
-- [notebook]()
-
-
-#### Readings
-
-- [TBA]()
 
 
 
