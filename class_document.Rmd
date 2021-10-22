@@ -31,6 +31,7 @@ Documents from class will be posted on this page.
 - [Introducing Semantics, Nick Riemer]()
 
 #### Python warmup exercise
+   - [notebook]()
 
 <br>
 
@@ -47,13 +48,21 @@ Documents from class will be posted on this page.
 
    - [slide]()
 
+- Bias and Meaning
+
+   - [slide]()
+
+
+#### Lab
+   - [notebook]()
+   - [assignment.1]()
+   - [assignment.2](https://bit.ly/3lB9YsT)
+
 #### Readings
 
 - [JM-SLP-v3, Chapter 6,7,9]()
 
-Bias and Meaning
 
-   - [slide]()
    
 <br>
 
